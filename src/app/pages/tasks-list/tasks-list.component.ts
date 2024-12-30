@@ -34,7 +34,6 @@ export class TasksListComponent {
 
   getAllTasks(): void {
     this.tasksService.getAllTasks().subscribe((tasks: Task[]): void => {
-      // console.log("Tasks: ", tasks);
       this.tasks = tasks;
     });
   }

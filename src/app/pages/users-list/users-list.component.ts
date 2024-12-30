@@ -28,7 +28,6 @@ export class UsersListComponent {
 
   getAllUsers(): void {
     this.usersService.getAllUsers().subscribe((users: User[]): void => {
-      // console.log("Users: ", users);
       this.users = users;
     });
   }
