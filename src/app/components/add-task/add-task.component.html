@@ -4,17 +4,17 @@
   <form>
     <p>
       <label for="title">Title</label>
-      <input id="title" name="title" type="text"/>
+      <input [(ngModel)]="task.title" id="title" name="title" type="text"/>
     </p>
 
     <p>
       <label for="summary">Summary</label>
-      <textarea id="summary" name="summary" rows="5"></textarea>
+      <textarea [(ngModel)]="task.summary" id="summary" name="summary" rows="5"></textarea>
     </p>
 
     <p>
       <label for="due-date">Due Date</label>
-      <input id="due-date" name="due-date" type="date"/>
+      <input [(ngModel)]="task.dueDate" id="due-date" name="due-date" type="date"/>
     </p>
 
     <p class="actions">

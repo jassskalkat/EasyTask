@@ -50,5 +50,4 @@ export class TasksListComponent {
   receiveCancelAddingTask(isCancelAddingTask: boolean): void {
     this.isAddingTask = isCancelAddingTask;
   }
-
 }

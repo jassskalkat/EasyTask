@@ -14,4 +14,20 @@ export class TasksService {
   getAllTasks(): Observable<Task[]> {
     return this.httpclient.get<Task[]>(this.apiURL);
   }
+
+  getTaskById(id: string): Observable<Task> {
+    return this.httpclient.get<Task>(`${this.apiURL}/${id}`);
+  }
+
+  createTask(task: Task): Observable<Task> {
+    return this.httpclient.post<Task>(this.apiURL, task);
+  }
+
+  updateTask(task: Task): Observable<Task> {
+    return this.httpclient.put<Task>(`${this.apiURL}/${task.id}`, task);
+  }
+
+  deleteTask(id: string): Observable<Task> {
+    return this.httpclient.delete<Task>(`${this.apiURL}/${id}`);
+  }
 }
