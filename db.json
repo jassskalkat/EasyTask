@@ -138,13 +138,6 @@
       "dueDate": "2024-08-20"
     },
     {
-      "id": "t16",
-      "userId": "u5",
-      "title": "Design Project Marketing Strategy",
-      "summary": "Develop a marketing strategy for the online shop, including social media campaigns, SEO optimization, and paid advertising.",
-      "dueDate": "2024-09-01"
-    },
-    {
       "id": "t17",
       "userId": "u6",
       "title": "Implement Order History Feature",
@@ -171,13 +164,6 @@
       "title": "Finalize Launch Plan",
       "summary": "Create a comprehensive launch plan, including timelines, promotional activities, and support strategies for the online shop's official release.",
       "dueDate": "2024-09-25"
-    },
-    {
-      "id": "t36",
-      "userId": "u1",
-      "title": "Add Pagnitor To Shipping Project",
-      "summary": "Add paginator to materials page for easier navigation",
-      "dueDate": "2024-12-30"
     }
   ]
 }

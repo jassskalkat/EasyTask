@@ -40,7 +40,9 @@ export class TasksListComponent {
   }
 
   receiveCompletedTask(task: Task): void {
-    this.tasks = this.tasks.filter((taskCompleted: Task): boolean => taskCompleted.id !== task.id);
+    this.tasksService.deleteTask(task.id).subscribe((): void => {
+      this.getAllTasks();
+    });
   }
 
   addTask(): void {

@@ -1,7 +1,8 @@
-<div>
+<app-card>
   <button (click)="sendSelectedUser()" [class.active]="isUserSelected">
     <img [alt]="name" [src]="'/assets/users/' + avatar">
     <span>{{ name }}</span>
   </button>
-</div>
+</app-card>
+
 
