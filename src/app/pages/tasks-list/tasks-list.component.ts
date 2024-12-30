@@ -34,7 +34,7 @@ export class TasksListComponent {
 
   getAllTasks(): void {
     this.tasksService.getAllTasks().subscribe((tasks: Task[]): void => {
-      console.log("Tasks: ", tasks);
+      // console.log("Tasks: ", tasks);
       this.tasks = tasks;
     });
   }
@@ -49,5 +49,14 @@ export class TasksListComponent {
 
   receiveCancelAddingTask(isCancelAddingTask: boolean): void {
     this.isAddingTask = isCancelAddingTask;
+  }
+
+  receiveNewTask(task: Task): void {
+    task.id = `t${Math.floor(Math.random() * 100)}`;
+    task.userId = this.user.id;
+    this.tasksService.createTask(task).subscribe((newTask: Task): void => {
+      this.tasks.push(newTask);
+    });
+    this.isAddingTask = false;
   }
 }

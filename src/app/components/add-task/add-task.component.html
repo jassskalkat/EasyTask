@@ -1,7 +1,7 @@
 <div class="backdrop"></div>
 <dialog open>
   <h2>Add Task</h2>
-  <form>
+  <form (ngSubmit)="sendNewTask()">
     <p>
       <label for="title">Title</label>
       <input [(ngModel)]="task.title" id="title" name="title" type="text"/>

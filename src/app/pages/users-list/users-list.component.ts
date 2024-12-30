@@ -15,7 +15,7 @@ import {UsersService} from '../../services/users.service';
 })
 export class UsersListComponent {
   users: User[] = new Array<User>();
-  
+
   selectedUser: User = {
     id: '',
     name: '',
@@ -28,7 +28,7 @@ export class UsersListComponent {
 
   getAllUsers(): void {
     this.usersService.getAllUsers().subscribe((users: User[]): void => {
-      console.log("Users: ", users);
+      // console.log("Users: ", users);
       this.users = users;
     });
   }

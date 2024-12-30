@@ -1,6 +1,6 @@
 import {Component, EventEmitter, Output} from '@angular/core';
-import {Task} from '../../models/task.interface';
 import {FormsModule} from '@angular/forms';
+import {Task} from '../../models/task.interface';
 
 @Component({
   selector: 'app-add-task',
@@ -12,6 +12,7 @@ import {FormsModule} from '@angular/forms';
 })
 export class AddTaskComponent {
   @Output() cancelAddingTask: EventEmitter<boolean> = new EventEmitter<boolean>();
+  @Output() newTask: EventEmitter<Task> = new EventEmitter<Task>();
 
   task: Task = {
     id: '',
@@ -21,6 +22,10 @@ export class AddTaskComponent {
     dueDate: ''
   };
 
+  // taskTitle: string = '';
+  // taskSummary: string = '';
+  // taskDueDate: string = '';
+
   constructor() {
     this.task = new Task();
   }
@@ -28,4 +33,9 @@ export class AddTaskComponent {
   sendCancelAddingTask(): void {
     this.cancelAddingTask.emit(false);
   }
+
+  sendNewTask(): void {
+    this.newTask.emit(this.task);
+  }
+
 }
