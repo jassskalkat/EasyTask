@@ -1,0 +1,176 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "name": "Jasmine Washington",
+      "avatar": "user-1.jpg"
+    },
+    {
+      "id": "u2",
+      "name": "Emily Thompson",
+      "avatar": "user-2.jpg"
+    },
+    {
+      "id": "u3",
+      "name": "Marcus Johnson",
+      "avatar": "user-3.jpg"
+    },
+    {
+      "id": "u4",
+      "name": "David Miller",
+      "avatar": "user-4.jpg"
+    },
+    {
+      "id": "u5",
+      "name": "Priya Patel",
+      "avatar": "user-5.jpg"
+    },
+    {
+      "id": "u6",
+      "name": "Arjun Singh",
+      "avatar": "user-6.jpg"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "t1",
+      "userId": "u1",
+      "title": "Master Angular Framework",
+      "summary": "Gain proficiency in Angular by learning its core concepts, including components, services, routing, and state management, with hands-on examples.",
+      "dueDate": "2025-12-31"
+    },
+    {
+      "id": "t2",
+      "userId": "u3",
+      "title": "Develop First Prototype of Online Shop",
+      "summary": "Create a basic prototype for the online shop, including product listing, cart functionality, and a simple checkout process.",
+      "dueDate": "2024-05-31"
+    },
+    {
+      "id": "t3",
+      "userId": "u3",
+      "title": "Create Project Issue Template",
+      "summary": "Design a clear and structured issue template for tracking bugs, feature requests, and tasks, ensuring efficient project management.",
+      "dueDate": "2024-06-15"
+    },
+    {
+      "id": "t4",
+      "userId": "u4",
+      "title": "Document Project Architecture and Workflow",
+      "summary": "Write comprehensive documentation covering the project architecture, code structure, and workflow to assist current and future team members.",
+      "dueDate": "2024-06-30"
+    },
+    {
+      "id": "t5",
+      "userId": "u5",
+      "title": "Prepare Final Project Presentation",
+      "summary": "Prepare a detailed presentation for stakeholders, showcasing the project’s development, key features, and future roadmap.",
+      "dueDate": "2024-07-15"
+    },
+    {
+      "id": "t6",
+      "userId": "u2",
+      "title": "Set Up Project Repository",
+      "summary": "Create and initialize a Git repository for the project, set up branches for development, and configure basic CI/CD pipelines.",
+      "dueDate": "2024-04-10"
+    },
+    {
+      "id": "t7",
+      "userId": "u6",
+      "title": "Develop User Authentication System",
+      "summary": "Build a secure user authentication system with login, registration, and password recovery functionality.",
+      "dueDate": "2024-05-05"
+    },
+    {
+      "id": "t8",
+      "userId": "u1",
+      "title": "Implement Responsive UI Design",
+      "summary": "Create a responsive user interface using CSS Grid and Flexbox to ensure the app is fully functional on all screen sizes.",
+      "dueDate": "2024-06-01"
+    },
+    {
+      "id": "t9",
+      "userId": "u3",
+      "title": "Implement Product Search Feature",
+      "summary": "Add a search functionality to the online shop, allowing users to filter products by category, price, and keywords.",
+      "dueDate": "2024-06-10"
+    },
+    {
+      "id": "t10",
+      "userId": "u4",
+      "title": "Write Unit Tests for Core Functions",
+      "summary": "Develop unit tests for critical functions, including user registration, login, and product search, to ensure code quality.",
+      "dueDate": "2024-07-01"
+    },
+    {
+      "id": "t11",
+      "userId": "u5",
+      "title": "Prepare User Manual",
+      "summary": "Create a user manual that explains how to use the online shop, including instructions for browsing products and checking out.",
+      "dueDate": "2024-07-05"
+    },
+    {
+      "id": "t12",
+      "userId": "u2",
+      "title": "Implement Payment Gateway Integration",
+      "summary": "Integrate a payment gateway (e.g., Stripe or PayPal) to process payments for the online shop.",
+      "dueDate": "2024-07-20"
+    },
+    {
+      "id": "t13",
+      "userId": "u1",
+      "title": "Optimize Frontend Performance",
+      "summary": "Optimize the frontend by implementing lazy loading, code splitting, and image optimization to improve performance and reduce load times.",
+      "dueDate": "2024-08-10"
+    },
+    {
+      "id": "t14",
+      "userId": "u3",
+      "title": "Conduct Usability Testing",
+      "summary": "Conduct usability testing with a group of users to identify pain points in the user experience and improve the design.",
+      "dueDate": "2024-08-15"
+    },
+    {
+      "id": "t15",
+      "userId": "u4",
+      "title": "Prepare API Documentation",
+      "summary": "Write API documentation for all endpoints, including authentication, product listings, and checkout, for both internal and external developers.",
+      "dueDate": "2024-08-20"
+    },
+    {
+      "id": "t16",
+      "userId": "u5",
+      "title": "Design Project Marketing Strategy",
+      "summary": "Develop a marketing strategy for the online shop, including social media campaigns, SEO optimization, and paid advertising.",
+      "dueDate": "2024-09-01"
+    },
+    {
+      "id": "t17",
+      "userId": "u6",
+      "title": "Implement Order History Feature",
+      "summary": "Create an order history feature where customers can view past purchases, track orders, and reorder items.",
+      "dueDate": "2024-09-05"
+    },
+    {
+      "id": "t18",
+      "userId": "u3",
+      "title": "Set Up Analytics Tracking",
+      "summary": "Implement analytics tracking to measure user behavior, conversion rates, and other important metrics using tools like Google Analytics.",
+      "dueDate": "2024-09-10"
+    },
+    {
+      "id": "t19",
+      "userId": "u4",
+      "title": "Ensure GDPR Compliance",
+      "summary": "Review and update the online shop to ensure compliance with GDPR regulations regarding user data privacy and security.",
+      "dueDate": "2024-09-15"
+    },
+    {
+      "id": "t20",
+      "userId": "u5",
+      "title": "Finalize Launch Plan",
+      "summary": "Create a comprehensive launch plan, including timelines, promotional activities, and support strategies for the online shop's official release.",
+      "dueDate": "2024-09-25"
+    }
+  ]
+}
